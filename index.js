@@ -14,7 +14,7 @@ let client = new MongoClient(uri, {useNewUrlParser : true ,  useUnifiedTopology:
 
 
 // Get
-app.get('/' , (req,res) => res.send("Welcome to Doctors Portal Backend Server"))
+app.get('/' , (req,res) => res.send("<h1><center>Welcome to Doctors Portal Backend Server</center></h1>"))
 
 // Get all Appointments 
 app.get('/appointments', (req, res) => {
